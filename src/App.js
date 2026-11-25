@@ -6,6 +6,7 @@ import Attr from './23-11JSXEX/Attribute';
 import Express from './23-11JSXEX/Expresionjsx';
 import Obj from './23-11JSXEX/JsObj';
 import DateTime from './23-11JSXEX/Ass_date_time';
+import ArraywithObj from './ASS25_11/AssArrayWithObj';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Attr/> */}
       {/* <Express /> */}
       {/* <Obj /> */}
-      <DateTime />
+      {/* <DateTime /> */}
+      <ArraywithObj />
 
 
     </div>
