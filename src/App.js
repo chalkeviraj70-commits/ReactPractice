@@ -9,6 +9,8 @@ import DateTime from './23-11JSXEX/Ass_date_time';
 import ArraywithObj from './ASS25_11/AssArrayWithObj';
 import ArraywithMap from './ASS25_11/ASS2ArrayWithMap';
 import Calc from './ASS25_11/Calculator';
+import Heading from './Ass27_11/CardHeading';
+import CardSameContent from './Ass27_11/CardWithSameContent';
 
 function App() {
   return (
@@ -22,7 +24,16 @@ function App() {
       {/* <DateTime /> */}
       {/* <ArraywithObj /> */}
       {/* <ArraywithMap /> */}
-      <Calc/>
+      {/* <Calc/> */}
+      <Heading />
+      <div className='Card'>
+        <CardSameContent />
+        <CardSameContent />
+        <CardSameContent />
+        <CardSameContent />
+        <CardSameContent />
+        <CardSameContent />
+      </div>
 
 
     </div>
